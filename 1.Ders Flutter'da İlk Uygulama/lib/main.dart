@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
         title: Text(mesaj),
       ),
       body: Center(
-        child: RaisedButton(onPressed: () {
+        child: RaisedButton(
+          child:Text("Tıkla"),
+          onPressed: () {
           var alert = AlertDialog(
             title: Text("Sınav Sonucu"),
             content: Text("Geçti"),
